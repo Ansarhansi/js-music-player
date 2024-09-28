@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Music Player</title>
+    <link rel="stylesheet" href="c.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <h1 class="main-title">Melody Player</h1> 
+    <div class="music-player">
+        <div class="album-cover">
+            <img src="images/D.jpg" alt="Album Cover" id="album-art">
+        </div>
+        <div class="song-details">
+            <h2 id="song-title">Song Title</h2>
+            <p id="song-artist">Artist</p>
+        </div>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <div class="time-info">
+            <span id="current-time">0:00</span>
+            <span id="duration">0:00</span>
+        </div>
+        <div class="controls">
+            <button id="prev-btn"><i class="fas fa-step-backward"></i></button>
+            <button id="play-pause-btn"><i class="fas fa-play"></i></button>
+            <button id="next-btn"><i class="fas fa-step-forward"></i></button>
+        </div>
+        <div class="volume-control">
+            <i class="fas fa-volume-up"></i>
+            <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1">
+        </div>
+        <div class="playlist">
+            <h3>Playlist</h3>
+            <ul id="playlist-items">
+                <li data-src="music/1.mp3" data-cover="images/01.jpg">o mere Laila -<br> Atif Asalam</li>
+                <li data-src="music/2.mp3" data-cover="images/02.jpg">Abhi muje mai Kahi -<br> Sonu Nigam</li>
+                <li data-src="music/3.mp3" data-cover="images/03.jpg">Nadhaaniya -<br> Akshath</li>
+                <li data-src="music/4.mp3" data-cover="images/04.jpg"> Pehle Bhi Mai -<br> Vishal Mishra</li>
+                <li data-src="music/5.mp3" data-cover="images/05.jpg"> Ek Lamha -<br> Azaan Sami Khan</li>
+                <li data-src="music/6.mp3" data-cover="images/06.jpg"> Pasoori  -<br> Ali Seth and Shae Gill</li>
+                <li data-src="music/7.mp3" data-cover="images/07.jpg"> Tera Zikr  -<br> Darshan Raval</li>
+                
+                <li data-src="music/8.mp3" data-cover="images/08.jpg"> Kahani Suno  -<br> Kaifi Khali</li>
+                <li data-src="music/9.mp3" data-cover="images\9.png">  O Mahii   -<br> Pritam</li>
+                <li data-src="music/10.mp3" data-cover="images/010.jpg"> Humanva   -<br> Mithoon and Pritam</li>
+                <li data-src="music/11.mp3" data-cover="images/011.jpg"> Chaleya -<br> Arijit Singh and Shilapa Rao</li>
+
+                <li data-src="music/12.mp3" data-cover="images/012.jpg"> Kesariya  -<br> Arjit Singh</li>
+                <li data-src="music/13.mp3" data-cover="images/013.jpg"> Zara Zara Behkta   -<br> Aditya Bhardwaj</li>
+                <li data-src="music/14.mp3" data-cover="images/13.png">  Tainu khabar nahi   -<br> Arjit Singh</li>
+                <li data-src="music/15.mp3" data-cover="images/015.jpg"> Janam Janam -<br> Arjit Singh</li>
+                <li data-src="music/16.mp3" data-cover="images/16.png"> Zaroorat -<br> Mustafa Zahid</li>
+                <li data-src="music/17.mp3" data-cover="images/17.png"> Aaj bhi -<br> Vishal Mishra</li>
+                <li data-src="music/18.mp3" data-cover="images/018.jpg"> Tum se he -<br> Mohit Chauhan</li>
+                <li data-src="music/19.mp3" data-cover="images/019.jpg"> Sajne re -<br> Arjit Singh</li>
+                <li data-src="music/20.mp3" data-cover="images/02..jpg"> Apna Bana le -<br> Arjit Singh and Sachin-Jigar</li>
+               
+            </ul>
+        </div>
+    </div>
+    <script src="b.js"></script>
+</body>
+</html>
